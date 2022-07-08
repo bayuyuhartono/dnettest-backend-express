@@ -111,7 +111,7 @@ module.exports = {
 
             connection.query(query, (error, result) => {
                 if(error) {
-                    reject(new Error(error))
+                    reject(new Error(error)) 
                 }
                 else {
                     resolve(result)
